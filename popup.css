@@ -1,0 +1,12 @@
+/* Make text bigger */
+body {
+  font-size: 16px !important;
+  font-family: "Fira Sans", sans-serif !important;
+}
+
+/* Dark theme for assignment cards */
+.ic-DashboardCard {
+  background: #2a2a2a !important;
+  color: #fff !important;
+  border-radius: 12px !important;
+}

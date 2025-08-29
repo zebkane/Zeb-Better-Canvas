@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Zeb's Better Canvas",
+  "version": "1.0",
+  "permissions": ["storage", "scripting", "activeTab"],
+  "host_permissions": ["https://*.instructure.com/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://*.instructure.com/*"],
+      "js": ["popup.js"],
+      "css": ["popup.css"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  }
+}
